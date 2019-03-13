@@ -1,0 +1,66 @@
+﻿Alpha Centauri - Close Star
+----------- Observation data
+Constellation 	Centaurus
+Alpha Centauri A
+	Right ascension 	 14h 39m 36.49400s
+	Declination 	–60° 50′ 02.3737″
+	Apparent magnitude (V) 	+0.01
+Alpha Centauri B
+	Right ascension 	 14h 39m 35.06311s
+	Declination 	–60° 50′ 15.0992″
+	Apparent magnitude (V) 	+1.33
+----------- Characteristics
+A
+	Spectral type 	G2V
+	U−B colour index 	+0.24
+	B−V colour index 	+0.71
+B
+	Spectral type 	K1V
+	U−B colour index 	+0.68
+	B−V colour index 	+0.88
+----------- Astrometry
+A
+	Radial velocity (Rv)	−21.4±0.76 km/s
+	Proper motion (μ)	RA: −3679.25 mas/yr
+	Dec.: 473.67 mas/yr
+	Parallax (π)	754.81 ± 4.11 mas
+	Distance	4.37 ly
+	Absolute magnitude (MV)	4.38
+B
+	Radial velocity (Rv)	−18.6±1.64 km/s
+	Proper motion (μ)	RA: −3614.39 mas/yr
+	Dec.: 802.98 mas/yr
+	Parallax (π)	754.81 ± 4.11 mas
+	Distance	4.37 ly
+	Absolute magnitude (MV)	5.71
+----------- Details
+Alpha Centauri A
+	Mass	1.100 M☉
+	Radius	1.2234±0.0053 R☉
+	Luminosity	1.519 L☉
+	Surface gravity (log g)	4.30 cgs
+	Temperature	5,790 K
+	Metallicity [Fe/H]	0.20 dex
+	Rotation	22±5.9 d
+	Rotational velocity (v sin i)	2.7±0.7 km/s
+Alpha Centauri B
+	Mass	0.907 M☉
+	Radius	0.8632±0.0037 R☉
+	Luminosity	0.5002 L☉
+	Surface gravity (log g)	4.37 cgs
+	Temperature	5,260 K
+		Metallicity	0.23
+	Rotation	36 days
+	Rotational velocity (v sin i)	1.1±0.8 km/s
+Age	5.3±0.3 Gyr
+----------- Orbit
+Primary	A
+Companion	B
+Period (P)	79.91±0.011 yr
+Semi-major axis (a)	17.57±0.022″
+Eccentricity (e)	0.5179±0.00076
+Inclination (i)	79.205±0.041°
+Longitude of the node (Ω)	204.85±0.084°
+Periastron epoch (T)	1875.66±0.012
+Argument of periastron (ω)
+	(secondary)	231.65±0.076°
