@@ -1,0 +1,43 @@
+﻿Luhman 16 - 3rd Closest Star Sytem
+----------- Observation data
+Constellation 	Vela
+Right ascension 	 10h 49m 18.723s
+Declination 	−53° 19′ 09.86″
+----------- Characteristics
+Spectral type 	A: L7.5
+B: T0.5 ± 1
+Apparent magnitude (i (DENIS filter system)) 	14.94±0.03
+Apparent magnitude (J (2MASS filter system)) 	10.73±0.03
+Apparent magnitude (J (DENIS filter system)) 	10.68±0.05
+Apparent magnitude (H (2MASS filter system)) 	9.56±0.03
+Apparent magnitude (KS (2MASS filter system)) 	8.84±0.02
+Apparent magnitude (KS (DENIS filter system)) 	8.87±0.08
+----------- Astrometry
+Proper motion (μ)	RA: −2762.16±2.43 mas/yr
+	Dec.: 357.79±3.44 mas/yr
+Parallax (π)	500.51 ± 0.11 mas
+Distance	6.516 ± 0.001 ly (1.9980 ± 0.0004 pc)
+----------- Orbit
+Period (P)	27.54+0.39 −0.43 yr
+Semi-major axis (a)	3.557+0.026 −0.023 AU
+Eccentricity (e)	0.343±0.005
+Inclination (i)	100.26±0.05°
+Longitude of the node (Ω)	139.67±0.05°
+Periastron epoch (T)	2017.78±0.05
+Argument of periastron (ω)
+	(secondary)	128.1±1.5°
+----------- Details
+Luhman 16A
+	Mass	0.032 M☉
+	Mass	33.5±0.3 MJup
+	Luminosity	0.0000219 L☉
+	Temperature	1350 K
+Luhman 16B
+	Mass	0.027 M☉
+	Mass	28.6±0.3 MJup
+	Luminosity	0.0000209 L☉
+	Temperature	1210 K
+	Position (relative to A)
+	Component	B
+Angular distance	1.5″
+Observed separation (projected)	3 AU

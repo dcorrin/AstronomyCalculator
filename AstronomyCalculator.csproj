@@ -1,0 +1,129 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{2B73F75B-97D4-4607-BDA6-2852DCD3DDBB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>AstronomyCalculator</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AstCalcAngle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AstCalcCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AstCalcDistance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AstCalcForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AstCalcForm.Designer.cs">
+      <DependentUpon>AstCalcForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AstCalcInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AstCalcMass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AstCalcTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\AstronomyCalculator\v15\.suo" />
+    <None Include=".vs\AstronomyCalculator\v15\Browse.VC.db" />
+    <None Include=".vs\AstronomyCalculator\v15\Server\sqlite3\db.lock" />
+    <None Include=".vs\AstronomyCalculator\v15\Server\sqlite3\storage.ide" />
+    <None Include=".vs\AstronomyCalculator\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include=".vs\AstronomyCalculator\v15\Server\sqlite3\storage.ide-wal" />
+    <EmbeddedResource Include="Resources\000Sol.dat" />
+    <EmbeddedResource Include="Resources\010Mercury.dat" />
+    <EmbeddedResource Include="Resources\020Venus.dat" />
+    <EmbeddedResource Include="Resources\030Earth.dat" />
+    <EmbeddedResource Include="Resources\031Moon.dat" />
+    <EmbeddedResource Include="Resources\040Mars.dat" />
+    <EmbeddedResource Include="Resources\050Ceres.dat" />
+    <EmbeddedResource Include="Resources\060Jupiter.dat" />
+    <EmbeddedResource Include="Resources\061Ganymede.dat" />
+    <EmbeddedResource Include="Resources\062Callisto.dat" />
+    <EmbeddedResource Include="Resources\063Io.dat" />
+    <EmbeddedResource Include="Resources\064Europa.dat" />
+    <EmbeddedResource Include="Resources\070Saturn.dat" />
+    <EmbeddedResource Include="Resources\071Titan.dat" />
+    <EmbeddedResource Include="Resources\072Rhea.dat" />
+    <EmbeddedResource Include="Resources\073Iapetus.dat" />
+    <EmbeddedResource Include="Resources\080Uranus.dat" />
+    <EmbeddedResource Include="Resources\081Titania.dat" />
+    <EmbeddedResource Include="Resources\082Oberon.dat" />
+    <EmbeddedResource Include="Resources\090Neptune.dat" />
+    <EmbeddedResource Include="Resources\091Triton.dat" />
+    <EmbeddedResource Include="Resources\100Pluto.dat" />
+    <EmbeddedResource Include="Resources\110Eris.dat" />
+    <EmbeddedResource Include="Resources\120Makemake.dat" />
+    <EmbeddedResource Include="Resources\130Haumea.dat" />
+    <EmbeddedResource Include="Resources\140Alpha Centauri.dat" />
+    <EmbeddedResource Include="Resources\141Proxima Centauri.dat" />
+    <EmbeddedResource Include="Resources\150Barmard%27s Star.dat" />
+    <EmbeddedResource Include="Resources\160Luhman 16.dat" />
+    <EmbeddedResource Include="Resources\170WISE 0855-0714.dat" />
+    <EmbeddedResource Include="Resources\180Wolf 359.dat" />
+    <EmbeddedResource Include="Resources\190Lalande 21185.dat" />
+    <EmbeddedResource Include="Resources\200Sirus.dat" />
+    <EmbeddedResource Include="Resources\210Kapteyn%27s Star.dat" />
+    <EmbeddedResource Include="Resources\220US 708.dat" />
+    <EmbeddedResource Include="Resources\230Eta Carinae.dat" />
+    <EmbeddedResource Include="Resources\240Canopus.dat" />
+    <EmbeddedResource Include="Resources\250Milky Way.dat" />
+    <EmbeddedResource Include="Resources\260Andromeda.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Constants.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AstronomyCalculator\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
