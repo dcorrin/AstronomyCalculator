@@ -1,0 +1,13 @@
+Pi	3.14159265359
+C	2.99792458e+10
+Planck	6.6260755e-27
+Gravitational	6.67259e-8
+Electron_charge	4.8032068e-10
+Atomic_mass_unit	1.6605402e-24
+Avagadro's_number	6.0221367e23
+Boltzmann	1.380658e-16
+Electron_volt	1.6021772e-12
+Radiation_density	7.5646e-15
+Stefan-Boltzmann	5.67051e-5
+Fine_structure	7.29735308e-3
+Rydberg	2.1798741e-11
