@@ -116,7 +116,7 @@ namespace AstronomyCalculator
                         bPlus_Click(sender, e);
                         break;
                     case Keys.Enter:
-                        Console.WriteLine("Enter");
+                        //Console.WriteLine("Enter");
                         bEnter_Click(sender, e);
                         break;
                     case Keys.E:

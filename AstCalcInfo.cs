@@ -100,7 +100,7 @@ namespace AstronomyCalculator
 
             foreach (string resource in resourceNames)
             {
-                Console.WriteLine("Found resource: " + resource);
+                //Console.WriteLine("Found resource: " + resource);
 
                 string[] tokens = resource.Split('.');
                 string name = tokens[tokens.Length - 2];

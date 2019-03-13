@@ -242,11 +242,11 @@ namespace AstronomyCalculator
                 pcnt--;
             }
 
-            Console.WriteLine("Pre: tokens(" + tokens.Count + "): {0}", string.Join(",", tokens));
+            //Console.WriteLine("Pre: tokens(" + tokens.Count + "): {0}", string.Join(",", tokens));
             while (tokens.Count > 1)
             {
                 bool match = false; // have to have 1 match per loop
-                Console.WriteLine("tokens = {0}" + string.Join(",", tokens));
+                //Console.WriteLine("tokens = {0}" + string.Join(",", tokens));
                 // First process parenthesis
                 string currentLine = buildEquation(tokens);
                 if (currentLine.Contains("("))
